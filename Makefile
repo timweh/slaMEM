@@ -1,6 +1,6 @@
 CC        = gcc
 EXEC      = slaMEM
-CFLAGS    = -Wall -Wextra -Wunused -mpopcnt
+CFLAGS    = -Wall -Wextra -Wunused -mpopcnt -fcommon
 CDEBUG    = -g -ggdb -fno-inline -dH -DGDB
 COPTIMIZE = -Wuninitialized -O9 -fomit-frame-pointer
 CLIBS     = -lm
